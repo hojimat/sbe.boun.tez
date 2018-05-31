@@ -1,0 +1,92 @@
+\documentclass[12pt, oneside, liststotoc, consistentlayout]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont}{\thesubsubsection}{1em}{}
+\titleformat{\chapter}[display]{\normalfont\center\uppercase}{\MakeUppercase{\chaptertitlename} \thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{0pt}{4em}
+\titlespacing*{\section}{0pt}{4em}{0em}
+\titlespacing*{\subsection}{0pt}{4em}{0em}
+\titlespacing*{\subsubsection}{0pt}{4em}{0em}
+
+\usepackage{titletoc}
+\renewcommand\contentsname{TABLE OF CONTENTS}
+\renewcommand\listfigurename{LIST OF FIGURES}
+\renewcommand\listtablename{LIST OF TABLES}
+\titlecontents{chapter}[0pt]{}{\MakeUppercase{\chaptertitlename\ \thecontentslabel:\quad}\MakeUppercase}{}{\dotfill\contentspage}
+\titlecontents{section}[2.3em]{}{\thecontentslabel\quad}{}{\dotfill\contentspage}
+\titlecontents{figure}[0pt]{}{\figurename\ \thecontentslabel.\quad}{}{\dotfill\contentspage}
+\titlecontents{table}[0pt]{}{\tablename\ \thecontentslabel.\quad}{}{\dotfill\contentspage}
+\setcounter{tocdepth}{1}
+
+\usepackage{geometry}
+\geometry{paper=a4paper, left=4cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\usepackage{setspace}
+\doublespacing
+\renewcommand{\arraystretch}{1.5}
+\usepackage[labelsep=period]{caption}
+\captionsetup[table]{skip=1em}
+
+\usepackage{tikz}
+
+%%%%%%%%%%%%%% THIS IS THE ONLY EDITABLE AREA %%%%%%%%%%%%%%
+\newcommand{\authname}{Author Name Normal} 
+\newcommand{\ttitle}{Thesis Title with All Words Capitalized except Prepositions}
+\newcommand{\ttitletr}{Tez Basligi Turkce Cevirisi}
+\newcommand{\univname}{Boğaziçi University}
+\newcommand{\degname}{Master of Arts}
+\newcommand{\deptname}{Field Normal}
+\newcommand{\supname}{Prof. Dr. }
+\newcommand{\juryfname}{Prof. Dr. }
+\newcommand{\jurysname}{Prof. Dr. }
+%repeat the same in capitals
+\newcommand{\authnamecaps}{AUTHOR NAME IN CAPS} 
+\newcommand{\ttitlecaps}{THESIS TITLE IN CAPS}
+\newcommand{\ttitletrcaps}{TUM HARFLERI BUYUK TEZ BASLIGI TURKCE}
+\newcommand{\univnamecaps}{BOĞAZİÇİ UNIVERSITY}
+\newcommand{\degnamecaps}{MASTER OF ARTS}
+\newcommand{\deptnamecaps}{FIELD IN CAPS}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\pagenumbering{gobble}
+\include{pres/title}
+\include{pres/approval}
+\include{pres/declaration}
+\include{pres/abstract}
+\include{pres/acknowledgement}
+\tableofcontents
+\listoffigures
+\listoftables 
+
+\clearpage
+
+\pagenumbering{arabic}
+\include{chaps/chap1}
+%\include{chaps/chap2} 
+%\include{chaps/chap3}
+%\include{chaps/chap4} 
+%\include{chaps/chap5} 
+%\include{chaps/chap6}
+%\pagenumbering{gobble}
+
+\include{pres/bibliography}
+
+\appendix
+\addtocontents{toc}{\string\let\string\chaptertitlename\string\appendixname}
+\input{apps/appa}
+%\input{apps/appb}
+%\input{apps/appc}
+%\input{apps/appd}
+%\input{apps/appe}
+%\input{apps/appf}
+
+\end{document}  
