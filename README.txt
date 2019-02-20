@@ -25,6 +25,8 @@ Hi! This is a Thesis template for SBE Bogazici University (Sosyal Bilimler Ensti
 
 8) Whenever you add a new chapter or appendix, you must remove "%" sign from main.tex's chapter/appendix list ("%\include{chaps/chap2.tex"). When you remove "%" the chapter will be deactivated, when you put "%" back it will be reactivated.
 
+9) The references within text are done using command "\textcite{codename}" where "codename" is the label you gave in "/pres/references.bib". Usually, it's in format "\textcite{einstein91}", but you can change the codename as you wish.
+
 
 
 Good luck!
