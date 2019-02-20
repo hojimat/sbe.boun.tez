@@ -1,0 +1,50 @@
+\raggedright
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont}{\thesubsubsection}{1em}{}
+\titleformat{\chapter}[display]{\normalfont\center\uppercase}{\MakeUppercase{\chaptertitlename} \thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{0pt}{2em}
+\titlespacing*{\section}{0pt}{2em}{0em}
+\titlespacing*{\subsection}{0pt}{2em}{0em}
+\titlespacing*{\subsubsection}{0pt}{2em}{0em}
+
+\usepackage{titletoc}
+\renewcommand\contentsname{TABLE OF CONTENTS}
+\renewcommand\listfigurename{LIST OF FIGURES}
+\renewcommand\listtablename{LIST OF TABLES}
+\titlecontents{chapter}[0pt]{}{\MakeUppercase{\chaptertitlename\ \thecontentslabel:\quad}\MakeUppercase}{}{\dotfill\contentspage}
+\titlecontents{section}[2.3em]{}{\thecontentslabel\quad}{}{\dotfill\contentspage}
+\titlecontents{figure}[0pt]{\hangindent1.5em}{\figurename\ \thecontentslabel.\quad}{}{\dotfill\contentspage}
+\titlecontents{table}[0pt]{\hangindent1.5em}{\tablename\ \thecontentslabel.\quad}{}{\dotfill\contentspage}
+\setcounter{tocdepth}{1}
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+\usepackage{geometry}
+\geometry{paper=a4paper, left=4cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\usepackage{setspace}
+\doublespacing
+\renewcommand{\arraystretch}{1.5}
+\usepackage[labelsep=period]{caption}
+\captionsetup[table]{skip=1em}
+
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{subcaption}
+
+
+\usepackage[backend=biber, style=apa, sorting=nyt]{biblatex}
+\addbibresource{pres/references.bib}
+
+\usepackage{datetime}
+
