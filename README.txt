@@ -31,3 +31,6 @@ Hi! This is a Thesis template for SBE Bogazici University (Sosyal Bilimler Ensti
 
 Good luck!
 Ravshan S.K.
+
+For questions:
+rsk@ravshansk.com
