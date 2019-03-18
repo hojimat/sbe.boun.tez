@@ -28,6 +28,14 @@ Hi! This is a Thesis template for SBE Bogazici University (Sosyal Bilimler Ensti
 9) The references within text are done using command "\textcite{codename}" where "codename" is the label you gave in "/pres/references.bib". Usually, it's in format "\textcite{einstein91}", but you can change the codename as you wish.
 
 
+9a) "\textcite" cites like "Author (1999)"
+9b) "\parencite" cites like "(Author, 1999)"
+9c) "\cite" cites like "[1]"
+
+9d) If there are 3 or more author, the first citation will be "Author1, Author2, and Author3 (1999)", and the next time it will automatically cite "Author1 et al. (1999)"
+
+So, DON'T try to modify it!
+
 
 Good luck!
 Ravshan S.K.

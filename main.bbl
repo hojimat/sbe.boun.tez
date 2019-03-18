@@ -1,0 +1,218 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{aktug}{report}{}
+      \name{author}{3}{}{%
+        {{hash=3644e7c25d2ff943b62adf1bf0a90df2}{%
+           family={Aktuğ},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=204b703b5a7094439556aa472a951e56}{%
+           family={Kuzubaş},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi U.},
+           giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=18788485ce793d04a69c4802142d10cc}{%
+           family={Torul},
+           familyi={T\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Boğaziçi University, Department of Economics}%
+      }
+      \strng{namehash}{a98b4c4e629a3197a9544216e8f21a22}
+      \strng{fullhash}{a98b4c4e629a3197a9544216e8f21a22}
+      \strng{bibnamehash}{a98b4c4e629a3197a9544216e8f21a22}
+      \strng{authorbibnamehash}{a98b4c4e629a3197a9544216e8f21a22}
+      \strng{authornamehash}{a98b4c4e629a3197a9544216e8f21a22}
+      \strng{authorfullhash}{a98b4c4e629a3197a9544216e8f21a22}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{number}{2017/04}
+      \field{title}{{An investigation of labor income profiles in Turkey}}
+      \field{type}{Working Paper}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{ascheberg}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=27141152adc0b6ebd4f9a6276ead0edc}{%
+           family={Ascheberg},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7c0af5d9c2fa197cbc2f9764e296ef24}{%
+           family={Kraft},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5deb5c6d37f2c49afb49b07156cc9da0}{%
+           family={Munk},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8772f9c0dd806944f3cf620ca3be942f}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Dauphine Universite Paris}%
+      }
+      \strng{namehash}{db6030a2f7ef07a18f902221390b0b55}
+      \strng{fullhash}{877425b8acb6f584706ac56e076ba5ee}
+      \strng{bibnamehash}{db6030a2f7ef07a18f902221390b0b55}
+      \strng{authorbibnamehash}{db6030a2f7ef07a18f902221390b0b55}
+      \strng{authornamehash}{db6030a2f7ef07a18f902221390b0b55}
+      \strng{authorfullhash}{877425b8acb6f584706ac56e076ba5ee}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{maintitle}{International Workshop on Pension, Insurance and Saving}
+      \field{title}{The Joint Dynamics of Labor Income, Stock Prices, and House Prices and the Implications for Household Decisions}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{benporath}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f0daecd2e88e38ee1e81a31b18d9b98f}{%
+           family={Ben-Porath},
+           familyi={B\bibinithyphendelim P\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{f0daecd2e88e38ee1e81a31b18d9b98f}
+      \strng{fullhash}{f0daecd2e88e38ee1e81a31b18d9b98f}
+      \strng{bibnamehash}{f0daecd2e88e38ee1e81a31b18d9b98f}
+      \strng{authorbibnamehash}{f0daecd2e88e38ee1e81a31b18d9b98f}
+      \strng{authornamehash}{f0daecd2e88e38ee1e81a31b18d9b98f}
+      \strng{authorfullhash}{f0daecd2e88e38ee1e81a31b18d9b98f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{4}
+      \field{title}{The Production of Human Capital and the Life-Cycle of Earnings}
+      \field{volume}{75}
+      \field{year}{1967}
+      \true{nocite}
+      \field{pages}{352\bibrangedash 365}
+      \range{pages}{14}
+    \endentry
+    \entry{chomsky}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8e69e2dec38581003537abdb261651d0}{%
+           family={Chomsky},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Penguin Classics}%
+      }
+      \strng{namehash}{8e69e2dec38581003537abdb261651d0}
+      \strng{fullhash}{8e69e2dec38581003537abdb261651d0}
+      \strng{bibnamehash}{8e69e2dec38581003537abdb261651d0}
+      \strng{authorbibnamehash}{8e69e2dec38581003537abdb261651d0}
+      \strng{authornamehash}{8e69e2dec38581003537abdb261651d0}
+      \strng{authorfullhash}{8e69e2dec38581003537abdb261651d0}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4th edition}
+      \field{title}{A book title}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{oecd}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Long-term interest rates forecast (indicator)}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1787/662d712c
+      \endverb
+      \verb{urlraw}
+      \verb https://data.oecd.org
+      \endverb
+      \verb{url}
+      \verb https://data.oecd.org
+      \endverb
+    \endentry
+    \entry{olear}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=558c89b813ede45ce253da1486d65e7c}{%
+           family={Olear},
+           familyi={O\bibinitperiod},
+           given={G.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Tilburg University}%
+      }
+      \strng{namehash}{558c89b813ede45ce253da1486d65e7c}
+      \strng{fullhash}{558c89b813ede45ce253da1486d65e7c}
+      \strng{bibnamehash}{558c89b813ede45ce253da1486d65e7c}
+      \strng{authorbibnamehash}{558c89b813ede45ce253da1486d65e7c}
+      \strng{authornamehash}{558c89b813ede45ce253da1486d65e7c}
+      \strng{authorfullhash}{558c89b813ede45ce253da1486d65e7c}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Benefits of Individualized Lifecycle Investing: The Impact of Individual Wage Profile \& Housing Wealth}
+      \field{type}{mathesis}
+      \field{year}{2016}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://arno.uvt.nl/show.cgi?fid=141569
+      \endverb
+      \verb{url}
+      \verb http://arno.uvt.nl/show.cgi?fid=141569
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
